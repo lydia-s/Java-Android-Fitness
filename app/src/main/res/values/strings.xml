@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ls00735_assignment2</string>
+    <string name="action_settings">Settings</string>
+    <string name="portrait_mode_text_view" />
+    <string name="landscape_mode_text_view" />
+    <string name="mapTypeNone">mapTypeNone</string>
+    <string name="mapTypeSatellite">mapTypeSatellite</string>
+    <string name="mapTypeNormal">mapTypeNormal</string>
+    <string name="mapTypeHybrid">mapTypeHybrid</string>
+</resources>

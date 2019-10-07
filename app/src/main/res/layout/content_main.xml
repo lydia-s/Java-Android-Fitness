@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com1032.cw2.ls00735.ls00735_assignment2.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:weightSum="1">
+
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="55sp"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/mapFragment"
+        android:layout_weight="0.74" />
+
+
+    <TextView
+        android:id="@+id/Latitude01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="5dip"
+        android:text="Latitude: "
+        android:textSize="20dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/LatitudeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unknown"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/Longitude01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="5dip"
+        android:text="Longitude: "
+        android:textSize="20dip" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/LongitudeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unknown"
+        android:textSize="20dip" />
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance Travelled(km): "
+        android:textSize="20dip"/>
+
+    <TextView
+        android:id="@+id/distanceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="41dp"
+        android:text="unknown"
+        android:textSize="20dip" />
+
+
+    <TextView
+        android:id="@+id/getPrevious"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:text="Get previous"
+        android:id="@+id/button3"
+        android:layout_gravity="center_horizontal"
+        android:onClick="sendOutBroadcast" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:text="Save current"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:text="CLEAR DATABASE"
+        android:id="@+id/clearDatabase"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

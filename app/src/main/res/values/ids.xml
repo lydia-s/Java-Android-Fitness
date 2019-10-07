@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editText" type="id">editText</item>
+    <item name="mapTypeNone" type="id">mapTypeNone</item>
+    <item name="mapTypeSatellite" type="id">mapTypeSatellite</item>
+    <item name="mapTypeNormal" type="id">mapTypeNormal</item>
+    <item name="mapTypeHybrid" type="id">mapTypeHybrid</item>
+    <item name="LatitudeValue" type="id">LatitudeValue</item>
+    <item name="LongitudeValue" type="id">LongitudeValue</item>
+    <item name="button2" type="id">finishPoint</item>
+</resources>
